@@ -255,7 +255,7 @@
         // Function to display the redeem form when redeem link is clicked
         redeemLink.addEventListener('click', function(event) {
             event.preventDefault(); // Prevent default link behavior
-            if (points < 0) {
+            if (points < 300) {
                 alert('You do not have enough points to redeem. Minimum 300 points are required.');
             } else {
                 redeemForm.style.display = 'block'; // Display the redeem form
